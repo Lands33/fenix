@@ -1,9 +1,6 @@
 <template>
   <div>
-    <!-- Contenido principal del componente -->
-    <!-- ... (tu contenido principal aquí) ... -->
-
-    <!-- Pie de página -->
+  
     <footer>
       <div class="centered">
         <img class="logo-fenix-footer" src="/logo.png" alt="Fenix-Footer" width="150" height="65"> 
@@ -25,7 +22,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 999; /* Asegura que el pie de página esté en la parte superior */
+  z-index: 999;
 }
 
 .centered {
