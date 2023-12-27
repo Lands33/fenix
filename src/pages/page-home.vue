@@ -442,7 +442,6 @@
       </a>
       <button class="btn-action"></button>
     </li>
-    <!-- Resto de los elementos li con la clase común -->
     <li class="item-with-icon">
       <a href="/inventories-warehouses" class="btn-link">
         <svg class="svg-inline--fa fa-circle-plus fa-lg fa-li custom-icons" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -451,7 +450,6 @@
       </a>
       <button class="btn-action"></button>
     </li>
-    <!-- Agrega el resto de los elementos li aquí -->
     <li class="item-with-icon">
       <a href="/inventories-warehouses" class="btn-link">
         <svg class="svg-inline--fa fa-circle-plus fa-lg fa-li custom-icons" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -806,8 +804,8 @@ margin-left: 130px;
 margin-top: 40px;
 }
 .imgbutton2{
-  width: 80px; /* Cambia el valor según tus necesidades */
-  height: auto; /* Mantendrá la proporción de la imagen */
+  width: 80px; 
+  height: auto; 
   margin-top: -20px;
   margin-left: -5px;
 }
@@ -845,7 +843,7 @@ margin-top: 100PX;
 }
 .swiper-slide img.desaturate {
   filter: grayscale(100%);
-  transition: filter 0.5s ease; /* Agrega una transición suave para el efecto */
+  transition: filter 0.5s ease; 
 }
 
 .swiper-slide-active img.desaturate {
@@ -860,7 +858,7 @@ margin-bottom: 50px;
 }
 .titulo{
   line-height: 1;
-  margin-top: 50px; /* Puedes ajustar este valor según tus necesidades */
+  margin-top: 50px; 
 
 }
 
@@ -874,7 +872,7 @@ margin-bottom: 50px;
     color: #00337c;
     font-family: Poppins,sans-serif;
 }
-/* Ajustes en el espacio en blanco antes del texto "Industrias y Planes" */
+
 .textos h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 45px;
@@ -893,15 +891,15 @@ margin-bottom: 50px;
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 50px; /* Aumenté el tamaño del botón */
-  height: 50px; /* Aumenté el tamaño del botón */
+  width: 50px; /*  tamaño del botón */
+  height: 50px; /* tamaño del botón */
   border-radius: 50%;
   background-color: white;
   color: #f40043;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 40px; /* Aumenté el tamaño de la fuente */
-  border: 8px solid #f40043; /* Aumenté el tamaño del borde */
+  font-size: 40px;
+  border: 8px solid #f40043; 
   cursor: pointer;
   overflow: hidden;
 }
@@ -913,7 +911,7 @@ margin-bottom: 50px;
   height: 100%;
   background: rgba(244, 0, 67, 0.3);
   border-radius: inherit;
-  animation: pulse 2s infinite; /* Aumenté la duración de la animación a 3 segundos */
+  animation: pulse 2s infinite; 
 }
 
 @keyframes pulse {
@@ -951,7 +949,7 @@ margin-bottom: 50px;
   justify-items: start;
   font-family: 'Poppins', sans-serif;
   background-color: rgba(255, 255, 255, 1); /* Fondo blanco */
-  transition: background-color 0.3s ease; /* Agregado para una transición suave */
+  transition: background-color 0.3s ease; 
 }
 
 .card h2 {
@@ -974,7 +972,7 @@ margin-bottom: 50px;
     box-shadow: 5px 5px 5px #0000004d;
 }
 .card-1:hover {
-  background-color: rgba(201, 199, 199, 0.8); /* Fondo gris con opacidad al pasar el cursor */
+  background-color: rgba(201, 199, 199, 0.8); 
 }
 .card-2 {
     border-radius: 65px 0 0;
@@ -983,14 +981,14 @@ margin-bottom: 50px;
 
 }
 .card-2:hover {
-  background-color: rgba(201, 199, 199, 0.8); /* Fondo gris con opacidad al pasar el cursor */
+  background-color: rgba(201, 199, 199, 0.8); 
 }
 .card-3 {
     border-radius: 0 0 65px;
     box-shadow: 5px 5px 5px #0000004d;
 }
 .card-3:hover {
-  background-color: rgba(201, 199, 199, 0.8); /* Fondo gris con opacidad al pasar el cursor */
+  background-color: rgba(201, 199, 199, 0.8); 
 }
 .card-4 {
     border-radius: 0 0 0 65px;
@@ -998,7 +996,7 @@ margin-bottom: 50px;
     margin-left: 93px;
 }
 .card-4:hover {
-  background-color: rgba(201, 199, 199, 0.8); /* Fondo gris con opacidad al pasar el cursor */
+  background-color: rgba(201, 199, 199, 0.8); 
 }
 .card {
     display: grid;
@@ -1363,21 +1361,21 @@ margin-bottom: 17px;
 .fa-ul li.item-with-icon {
   position: relative;
   display: flex;
-  margin-bottom: 10px; /* Ajustar según sea necesario */
-  margin-right: -290px; /* Ajustar según sea necesario */
+  margin-bottom: 10px; 
+  margin-right: -290px; 
 }
 
 .fa-ul li.item-with-icon svg {
-  margin-right: 10px; /* Ajustar según sea necesario */
+  margin-right: 10px; 
 }
 
 .titleasesor {
-  text-align: center; /* Centra el texto */
+  text-align: center; 
   margin-left: -120px;
 }
 
 .card-column-left:hover{
-  background-color: rgba(201, 199, 199, 0.8); /* Fondo gris con opacidad al pasar el cursor */
+  background-color: rgba(201, 199, 199, 0.8); 
 
 
 }
@@ -1391,11 +1389,11 @@ margin-bottom: 17px;
   display: flex;
   align-items: center;
   margin-top: 10px;
-  background: none; /* Elimina cualquier fondo */
+  background: none;
 }
 
 .item-with-icon svg {
-  margin-right: 10px; /* Ajusta según sea necesario */
+  margin-right: 10px; 
 }
 .fa-ul2{
   margin-top: 110px;
@@ -1410,8 +1408,8 @@ margin-bottom: 17px;
             width: 100%;
             height: 100%;
             z-index: 0;
-            background-image: url('opti.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
-            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+            background-image: url('opti.png'); 
+            background-size: cover; 
             background-position: center;
 }
 .img-contadores{
@@ -1420,8 +1418,8 @@ margin-bottom: 17px;
             width: 100%;
             height: 100%;
             z-index: 0;
-            background-image: url('contadores.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
-            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+            background-image: url('contadores.png'); 
+            background-size: cover;
             background-position: center;
 }
 
@@ -1431,8 +1429,8 @@ margin-bottom: 17px;
             width: 100%;
             height: 100%;
             z-index: 0;
-            background-image: url('pymes.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
-            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+            background-image: url('pymes.png'); 
+            background-size: cover; 
             background-position: center;
 }
 .fa-ul3{
@@ -1468,7 +1466,7 @@ p {
   text-align: center;
   margin-left: 300px;
   font-family: Poppins,sans-serif;
-  font-size: 12px; /* Puedes ajustar este valor según tus preferencias */
+  font-size: 12px;
 
 
     display: flex;
@@ -1643,35 +1641,35 @@ p {
 
 .circle-icon {
   display: inline-block;
-  width: 24px; /* Ajusta el tamaño del círculo según sea necesario */
-  height: 24px; /* Ajusta el tamaño del círculo según sea necesario */
-  margin-right: 10px; /* Añade un margen derecho para separar el círculo del texto si es necesario */
+  width: 24px;
+  height: 24px; 
+  margin-right: 10px; 
 }
 
 .btn-link svg[data-icon="circle-plus"] {
-  border: 2px solid #f40043; /* Añade un borde rojo alrededor del círculo */
-  border-radius: 50%; /* Hace que el borde tenga forma de círculo */
-  color: white; /* Color rojo para el contorno del símbolo "+" */
-  fill: red; /* Color blanco para el relleno del símbolo "+" */
-  transition: opacity 0.1s ease-in-out; /* Añade una transición para suavizar la animación */
+  border: 2px solid #f40043; 
+  border-radius: 50%; 
+  color: white; 
+  fill: red;
+  transition: opacity 0.1s ease-in-out; 
 }
 
 .btn-link:hover svg[data-icon="circle-plus"] {
-  opacity: 0; /* Opacidad 0 al pasar el cursor por encima, activa la animación */
-  animation: appearDisappear 1s infinite; /* Animación infinita de aparecer y desaparecer */
+  opacity: 0;
+  animation: appearDisappear 1s infinite; 
 }
 
 @keyframes appearDisappear {
   0%, 100% {
-    opacity: 1; /* Estado inicial y final: completamente visible */
+    opacity: 1; 
   }
   50% {
-    opacity: 0; /* Opacidad 0 en la mitad de la animación, desaparece */
+    opacity: 0; 
   }
 }
 
 .btn-link:hover {
-  overflow: visible; /* Hace que el contenido sobresalga para que el círculo sea completamente visible durante la animación */
+  overflow: visible; 
 }
 
 .title-col-right2{
@@ -1679,7 +1677,7 @@ p {
   margin-left: 380px;
   margin-top: 100px;
   font-family: Poppins,sans-serif;
-  font-size: 12px; /* Puedes ajustar este valor según tus preferencias */
+  font-size: 12px; 
 
 
     display: flex;
